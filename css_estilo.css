@@ -1,0 +1,136 @@
+/* styles.css */
+
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #272d33;
+    color: #fcfcfc;
+    padding: 15px;
+}
+
+header h1 {
+    display: inline-block;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('imagenes/AZT.jpeg');
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    height:min-content;
+    display: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.btn {
+    background-color: #ec7411;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Servicios */
+#servicios {
+    padding: 50px;
+    text-align: center;
+}
+
+.servicios-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.servicio {
+    width: 30%;
+    background-color: #f7f4f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Proceso */
+#proceso {
+    background-color: #333;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.proceso-pasos {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Testimonios */
+#testimonios {
+    padding: 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.testimonio {
+    margin: 20px 0;
+}
+
+/* Contacto */
+#contacto {
+    padding: 50px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #272d33;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
