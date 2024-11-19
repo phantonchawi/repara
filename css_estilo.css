@@ -134,3 +134,73 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+/* Media Queries */
+@media (max-width: 768px) {
+    /* Encabezado */
+    header {
+        text-align: center;
+    }
+    nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    nav ul li a {
+        color: black;
+        text-decoration: none;
+    }
+
+    /* Servicios */
+    .servicios-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicio {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+/* General ajuste para pantallas pequeñas */
+body {
+    padding: 10px;
+}
+
+/* Navegación - Ajustar la barra de navegación en pantallas pequeñas */
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+/* Formulario - Ajuste para móviles */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    font-size: 16px;
+}
+
+/* Sección de contacto - Imagen y texto */
+#contacto img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+}
+
+@media (max-width: 480px) {
+    /* Texto más pequeño */
+    body {
+        font-size: 14px;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+}
