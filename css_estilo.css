@@ -54,8 +54,8 @@ nav ul li a {
 }
 
 .btn {
-    background-color: #ec7411;
-    color: white;
+    background-color: #da790a;
+    color: rgb(219, 6, 6);
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -95,7 +95,7 @@ nav ul li a {
 /* Testimonios */
 #testimonios {
     padding: 50px;
-    background-color: #f9f9f9;
+    background-color: #da790a;
     text-align: center;
 }
 

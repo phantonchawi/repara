@@ -1,4 +1,21 @@
 // scripts.js
+<script src="script.js"></script>
+
+// Simula la obtención de datos de visitas
+const visits = {
+    weekly: 150,  // Cambia esto por datos reales más adelante
+    monthly: 620
+};
+
+// Función para actualizar las visitas en la página
+function updateVisits() {
+    document.getElementById('weekly-visits').textContent = visits.weekly;
+    document.getElementById('monthly-visits').textContent = visits.monthly;
+}
+
+// Llama a la función cuando se cargue la página
+window.onload = updateVisits;
+
 document.getElementById('form-contacto').addEventListener('submit', function(e) {
     e.preventDefault();
     
